@@ -15,8 +15,8 @@ This project follows the description of the Deep Q Learning algorithm described 
 
 ## How to Run?
 ```
-git clone https://github.com/yenchenlin1994/DeepLearningFlappyBird.git
-cd DeepLearningFlappyBird
+git clone https://github.com/shaoyiwork/RL-FlappyBird.git
+cd RL-FlappyBird
 python deep_q_network.py
 ```
 
@@ -84,12 +84,12 @@ During training time, at each time step, the network samples minibatches of size
 ## FAQ
 
 #### Checkpoint not found
-Change [first line of `saved_networks/checkpoint`](https://github.com/yenchenlin1994/DeepLearningFlappyBird/blob/master/saved_networks/checkpoint#L1) to 
+Change [first line of `saved_networks/checkpoint`](https://github.com/shaoyiwork/RL-FlappyBird/blob/master/saved_networks/checkpoint#L1) to 
 
 `model_checkpoint_path: "saved_networks/bird-dqn-2920000"`
 
 #### How to reproduce?
-1. Comment out [these lines](https://github.com/yenchenlin1994/DeepLearningFlappyBird/blob/master/deep_q_network.py#L108-L112)
+1. Comment out [these lines](https://github.com/shaoyiwork/RL-FlappyBird/blob/master/deep_q_network.py#L108-L112)
 
 2. Modify `deep_q_network.py`'s parameter as follow:
 ```python
